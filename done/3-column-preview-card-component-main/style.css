@@ -1,0 +1,92 @@
+body, html{
+    background-color: white;
+    
+    font-size: 15px;
+    
+}
+
+.container{
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+    
+    color: white;;
+    height: auto;
+    width: auto;
+    margin: 200px;
+    padding: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: left;
+
+}
+
+
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    flex: 1;
+    border: 1px solid #666;
+    height: 500px;
+    padding: 10px;
+    transition: 0.3s;
+    
+}
+
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    flex: 1;
+    border: 1px solid #666;
+    
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.lux{
+    background-color: hsl(179, 100%, 13%);
+    flex: 1;
+    border: 1px solid #666;
+    
+    padding: 10px;
+    transition: 0.3s;
+}
+
+
+
+.Button1,.Button2,.Button3{
+    border-radius: 70px;
+    margin: 20px;
+    width: 150px;
+    height: 50px;
+   
+  
+    text-align: center;
+    padding: 14px 20px;
+    margin: 5px 2px;
+    display: inline-block;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border: none;
+    font-size: 14px;
+    font-style: bold;
+}
+
+.Button1{
+    color:  hsl(31, 77%, 52%);
+}
+.Button2{
+    color: hsl(184, 100%, 22%);
+}
+.Button3{
+    color: hsl(179, 100%, 13%);
+}
+/* 
+@media screen and (max-width: 1440px){
+        .container.sedan.suv.lux{
+            margin-bottom: 5px;
+            flex-basis: 40%;
+        }
+}
+     */ 
+h2{
+        text-decoration: white;
+}

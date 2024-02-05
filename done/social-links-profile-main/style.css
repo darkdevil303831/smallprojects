@@ -1,0 +1,119 @@
+
+body,html{
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    background-color: hsl(0, 0%, 8%);
+    
+    font-size: 14px;
+    align-items: center;
+
+}
+img{
+    border-radius: 100px;
+   
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+.container{
+    background-color: hsl(0, 0%, 12%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    margin: 100px;
+    padding: 100px;
+}
+
+h3{
+    color: white;
+
+}
+
+h2{
+    color: white;
+    
+}
+h4{
+    color:hsl(75, 94%, 57%);
+}
+
+
+.Button1,.Button2,.Button3,.Button4,.Button5{
+    width: 350px;
+    height: 50px;
+    color:hsl(0, 4%, 86%) ;
+    background-color: hsl(0, 0%, 20%);
+    text-align: center;
+    padding: 14px 20px;
+    margin: 5px 2px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    border: none;
+    font-size: 14px;
+    font-style: bold;
+    
+    
+}
+
+
+.Button1:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    font-style: bold;
+    font-size: 16px;
+
+
+}
+.Button2:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    font-style: bold;
+    font-size: 16px;
+
+
+}
+.Button3:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    font-style: bold;
+    font-size: 16px;
+
+
+}
+.Button4:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    font-style: bold;
+    font-size: 16px;
+
+
+}
+.Button5:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    font-style: bold;
+    font-size: 16px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
